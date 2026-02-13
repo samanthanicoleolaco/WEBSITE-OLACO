@@ -1,4 +1,4 @@
-.services {
+.service {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -60,7 +60,7 @@ p {
     font-size: 16px;
 }
 
-.services {
+.service {
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -83,22 +83,6 @@ p {
 
 .service-item h2 {
     margin: 15px 0 10px;
-}
-
-.social-media {
-    margin: 40px 0;
-}
-
-.social-media a {
-    text-decoration: none;
-    margin: 0 15px;
-    color: #333;
-    font-weight: 500;
-    transition: 0.3s;
-}
-
-.social-media a:hover {
-    color: #0077ff;
 }
 
 footer {
