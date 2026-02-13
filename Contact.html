@@ -3,23 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="Contact.css">
+    <title>Contact Us - Summer Paradise</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="contact.js" defer></script>
 </head>
+
 <body>
 
-    <header>
-        <h1>Summer Paradise</h1>
-        <nav>
-            <ul>
-                <div class="allbox">
-                <div class="box"><a href="home.html"><button>Home</button></a></div>
-                <div class="box"><a href="about.html"><button>About</button></a></div>
-                <div class="box"><a href="service.html"><button>Service</button></a></div>
-                <div class="box"><a href="contact.html"><button>Contact</button></a></div>
-        </div>
-            </ul>
-        </nav>
-    
+<header>
+    <h1>Summer Paradise</h1>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="service.html">Service</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<main>
+    <section class="contact-info" style="text-align:center; padding:30px;">
+        <h2>Contact Information</h2>
+        <p>Email: summerparadise@gmail.com</p>
+        <p>Phone: 123-456-7890</p>
+        <p>Address: 123 Summer Paradise St, Paradise City</p>
+    </section>
+
+    <section class="contact">
+        <h1>Contact Us</h1>
+
+        <form>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <br>
+    </section>
+
+</main>
+
+<footer>
+    <p>Practice rani.</p>
+</footer>
+
 </body>
 </html>
